@@ -1,0 +1,136 @@
+body{
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+body header{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: #c23636;
+    width: auto;
+    height: 100px;
+    text-align: left;
+    justify-content: space-between;
+}
+body header div{
+    margin: 0;
+    padding: 0;
+    vertical-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body header div#logo{
+    width: 250px;
+    padding-left: 20px;
+}
+body header div#link{
+    width: 280px;
+    padding-right: 20px;
+    font-family: Roboto, sans-serif;
+}
+a.header{
+    color: #c23636;
+    text-decoration: none;
+}
+a#block{
+    border-radius: 8px;
+    margin: 0;
+    padding: 15px;
+    color: white;
+    background-color: #c23636;
+    text-align: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+section  div#wellcome{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    height: 500px;
+    width: 97%;
+    align-items: flex-end;
+    background-image: url("./assets/5f78c1cf883b4d5eaafaff93_background.jpg");
+    background-position: 50% 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section div#wellcome p{
+    color: rgb(226, 234, 241);;
+    font-size: 150px;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    line-height: 150px;
+}
+section div#wellcome p b{
+    font-weight: bold;
+}
+section div#red{
+    font-size: 20px;
+    padding: 50px 200px 50px 200px;
+    background-color: #7c1e1e;
+    color: rgb(226, 234, 241);
+}
+section div#telling{
+    display: flex;
+    flex-direction: column;
+}
+section div#telling div.article{
+    display: flex;
+    flex-direction: row;
+    margin: 40px 40px 0;
+}
+section div#telling div.article p.year{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 125px;
+}
+section div#telling div.article div{
+    font-family: sans-serif;
+    font-size: 17px;
+    width: 800px;
+    text-align: justify;
+}
+section div#telling div.article div h1{
+    font-size: 30px;
+}
+section div#blank{
+    font-size: 20px;
+    padding: 50px 200px 50px 200px;
+    background-color: #e2e2e2;
+    color: black;
+}
+footer{
+    font-family: sans-serif;
+    margin: 40px 30px 20px 30px;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+footer div{
+    text-align: left;
+}
+footer div h1{
+    font-size: 20px;
+}
+footer div a{
+    text-decoration: none;
+    color: #444;
+}
