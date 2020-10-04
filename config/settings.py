@@ -30,8 +30,6 @@ ALLOWED_HOSTS = ['*', ]
 
 # Application definition
 
-AUTH_USER_MODEL = 'user.User'
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -39,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'user.apps.UserConfig',
+    'template.apps.TemplateConfig',
+    'redphone.apps.RedPhoneConfig',
 ]
 
 MIDDLEWARE = [
@@ -123,11 +122,3 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )
-
-
-# CBVs configurations
-# https://docs.djangoproject.com/en/3.0/topics/class-based-views/
-
-LOGIN_REDIRECT_URL = '/perfil/'
-
-LOGOUT_REDIRECT_URL = '/'
