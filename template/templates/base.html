@@ -21,20 +21,43 @@
         <link rel="shortcut icon" href="{% static 'logo_redphone.svg' %}">
     </head>
     <body class="d-flex flex-column h-100">
+        <!-- Header -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="logo">
+                <a class="navbar-brand text-danger" href="#">
+                    <img src="{% static 'iconfinder_phone-box_307361.svg' %}" class="d-inline-block align-center" alt="icon" width="60" height="60" loading="lazy">
+                    Redphone
+                </a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="/">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="/">Tripulante</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-danger my-2 my-sm-0" href="#" role="button">Sinta os desafios</a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="link">
+                
+            </div>
+        </header>
         <!-- Page content -->
         <main class="d-flex flex-column flex-fill">
             {% block content %}{% endblock %}
         </main>
 
         <!-- Footer -->
-        <footer class="mt-5 py-5 bg-light">
+        <footer class="mt-0 py-5 bg-light">
             <div class="container">
                 <div class="container d-flex align-items-center">
                     <div class="mr-auto">
                         <p class="m-0">© RedPhone, 2020. Todos os direitos reservados.</p>
                     </div>
                     <div class="mx-3">
-                        <img src="{% static 'logo_twitter.svg' %}" height="20">
+                        <img src="{% static 'logo_twitter.png' %}" height="20">
                     </div>
                 </div>
             </div>
