@@ -1,4 +1,179 @@
 {% extends "base.html" %}
 
 {% block content %}
+<section>
+    <div class="jumbotron jumbotron-fluid mb-0 bg-dark" style='
+        margin-top: 3.5rem;
+        background-image: url("../../../static/background.jpg");
+        background-position: 50% 15%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        '>
+        <div class="container">
+            <h1 class="display-4 text-light" style="font-size: 10rem; line-height: 10rem;">Hello, <b>Mars</b>.</h1>
+        </div>
+    </div>
+
+    <div class="card-fluid text-justify bg-danger text-light">
+        <div class="card-body">
+            <p class="card-text m-5">
+            With a temperature that can reach 20 ° C or -153 ° C Mars can be considered a cold and desert planet. <br>
+            The fourth planet in the Solar System has an atmosphere 100 times less dense than that of Earth, composed mainly of Carbon Dioxide, offers little oxygen and liquid water, making life difficult for some species of living beings present on our planet. <br>
+            The Red Planet is thus known for having a large amount of iron oxide on its surface giving it a reddish appearance and, because of this, it was named Mars in honor of the Greek war god Ares. Even their moons, Phobos and Deimos, received names related to Greek mythology, the names of the horses that pulled Ares' chariot. <br>
+            Mars is a splendid planet that has the largest volcano in the Solar System and is the planet with the closest approximation of living conditions second only to that of planet Earth, which is why studying Mars is very important.
+            </p>
+        </div>
+    </div>
+
+    <div class="row bg-dark text-light">
+        <div class="col-sm-4 my-2">
+            <h1 class="p-5" style="font-size: 8rem; line-height: 8rem;">1957</h1>
+        </div>
+
+        <div class="col-sm-6 my-5">
+            <div>
+                <h1>The beginning of everything</h1>
+                <p class="text-justify">
+                    It all started around 1957, with the beginning of the Space Race, after the Second World War and in the context of the Cold War. <br>
+
+                    The United States and the Soviet Union began to develop their technology to conquer space more and more quickly. But how did they communicate with their astronauts in the spacecraft? At that time, things went on as they were with airplanes. Much of the communication was through radio systems that had already developed a lot during the war. <br>
+
+                    With the advancement of technologies, the emergence of the first satellites, things started to improve even more, but the basis remained the same: radio waves. As long as things were "close" to Earth, everything was going well. Radio waves, by default, travel close to the speed of light, so little delay occurred in transmissions. <br>
+
+                    These communications generally occur in the SiBand, within the UHF (Ultra High Frequency) frequency due to their ability to cross the Earth's ionosphere without much distortion and interference (and continue the same way these days).
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row bg-dark text-light">
+        <div class="col-sm-4 my-2">
+            <h1 class="p-5" style="font-size: 8rem; line-height: 8rem;">1969</h1>
+        </div>
+
+        <div class="col-sm-6 my-5">
+            <div>
+                <h1>Exploring the limits of communication</h1>
+                <img src="./static/Presidente Richard Nixonfalando ao vivo com astronautas na Lua durante transmissão de TV.jpg" width="350px" alt="Voyager Path">
+                <p class="text-justify">
+                    In 1969, the man landed on the Moon. By that time, it’s the most distant place that a human being has ever stepped. At that time, the iconic call between Richard Nixon and astronauts Neil Armstrong occurred. Obviously, the phone was not directly in contact with the Moon. The communication passed through NASA's famous CAPCOM and was transmitted by radio waves to the Moon. <br>
+
+                    Today, in the same situation, the timing of this communication would not be much different. The waves continue to travel at the same speed as that time, and a communication from Earth to the Moon occurs with a delay of just 1.26 seconds. <br>
+
+                    It was at this time that one of the main space communication systems emerged: the Deep Space Network. This set of NASA antennas has been operating since the time of the Apollo missions until today to connect everything that is traveling around in our Solar System with the people here on Earth. At that time, to interpret the signals sent and received from the Moon, they had a computer called UNIVAC 494, which was the only one that enabled real-time communication in a continuous stream of 48kbps.
+                </p>
+                <img src="./static/287977.538036-UNIVAC-494.jpg" width="350px" alt="Voyager Path">
+                <p>
+                    However, not only humans are traveling around. Many probes have been sent to space and to places much more distant than the Moon, and guess who is there collecting this information that is traveling in space? The Deep Space Network!
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row bg-dark text-light">
+        <div class="col-sm-4 my-2">
+            <h1 class="p-5" style="font-size: 8rem; line-height: 8rem;">1977</h1>
+        </div>
+
+        <div class="col-sm-6 my-5">
+            <div>
+                <img src="./static/5f78ccd60832c0e09e2e726b_VoyagerPath.png" width="350px" alt="Voyager Path">
+                <h1>Voyager the explorer</h1>
+                <p class="text-justify">
+                    A great example of this is the Voyager Mission, with its two probes that are currently very, very far from Earth. Currently, Voyager 1 is already in what is called interstellar space, as it has "officially" left our Solar System and continues to travel around. And the coolest thing: we still have contact with her! <br>
+
+                    But things are not that easy. To give you an idea of ​​the difficulty of communication, currently, the Voyager 1 signal takes up to 19 hours to reach Earth. And if Earth needs to respond to that signal, it takes another 19 hours to reach Voyager! Imagine you say “hi” to your friend on your cell phone and it takes 38 hours to get an answer! It's hard, it is not? To continue sending data to us, Voyager has a high gain antenna of 3.7 meters and is able to send data with a band of 1.4 kbps, which is very low bandwidth in comparison to what we have today.
+
+                </p>
+                <p class="text-justify">
+                    And if you want to know where that drill lady is right now, you can check it out <a href="https://voyager.jpl.nasa.gov/mission/status/#where_are_they_now" class="text-decoration-none text-danger">here.</a>
+                </p>
+                <p class="text-justify"></p>
+                    This is a problem currently faced with communications with Mars. Although this red planet is much closer to us than our small and courageous Voyagers, it is much further away than the Moon. So there is still a very long delay in receiving and sending information. Your message sent to our Martian friend, can take up to 44 minutes to be answered, depending on the position of our planets.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row bg-dark text-light">
+        <div class="col-sm-4 my-2">
+            <h1 class="p-5" style="font-size: 8rem; line-height: 8rem;">2012</h1>
+        </div>
+
+        <div class="col-sm-6 my-5">
+                <img src="./static/comunicacao-curiosity.jpg" width="350px" alt="Earth">
+                <h1>Mars is right there</h1>
+                <p class="text-justify">
+                    In 2012, the Curiosity spacecraft arrived on Mars. It is the first complete mobile laboratory sent to another planet and its function is to study Martian soil for about two years. This probe is equipped with a mechanical arm capable of drilling holes, cameras, thermal and motion sensors, etc. But one of its most important components is antennas, which are used to transmit data to Earth. There are three different antennas attached to the probe: one of low gain, one of high gain and a UHF type antenna (Ultra High Frequency; Ultra High Frequency). <br>
+
+                    The first antenna is connected to a slow, low-power UHF radio. It is capable of transmitting a small data rate to other orbiting probes on Mars or directly to Earth. It is designed to be used in emergency situations, when other transmission devices fail. <br>
+
+                    The second antenna is connected to a high speed UHF radio. This in turn transmits the information quickly to other probes that orbit the planet (Odyssey, Mars Reconnaissance Orbiter and Mars Express), at rates between 256 kbits / s to 2 Mbits / s and has a consumption of only 15 watts. It is the main means of communication, it is estimated that about 31 megabytes of data reach Earth per day through this channel. <br>
+
+                    Finally, the high gain antenna. It directly connects the Curiosity probe with scientists and engineers here on Earth and for this reason this channel is only available for three hours a day, due to the alignment of the planets and energy issues. This antenna uses a radio that consumes 40 watts and transmits only 12 kilobits per second. There is a 20-minute delay in the transmission of information, as the signal must cover distances between 100 to 400 million kilometers between Earth and Mars. As it is a direct communication channel, NASA uses it to send commands to the probe and also to receive critical data.
+                    So, even though little Curiosity generates a lot of information every day, they are still limited to the amount of information it can send to Earth. To give you an idea, the image of the Curiosity parachute had 555 MiB and it took a long time to be transmitted completely to Earth. <br>
+
+                    In order to increase the efficiency of receiving this information, these probes send some small pictures so that scientists on Earth can choose which one they want to receive and then they send the chosen high resolution photos. And you can follow this little robot closely <a href="https://eyes.nasa.gov/curiosity/" class="text-decoration-none text-danger">here.</a>
+                </p>
+                <p class="text-justify">
+                    Even with all this network, we can only receive that meager 31 MB of data daily. You can't load even a little video out there, right? Oh, and guess who gets all this data? Our DSN antennas! In fact, you can see in real time who is sending messages to us on <a href="https://eyes.nasa.gov/dsn/dsn.html" class="text-decoration-none text-danger">this site.</a>
+                </p>
+        </div>
+    </div>
+
+    <div class="row bg-dark text-light">
+        <div class="col-sm-4 my-2">
+            <h1 class="p-5" style="font-size: 8rem; line-height: 8rem;">Future</h1>
+        </div>
+
+        <div class="col-sm-6 my-5">
+            <div>
+                <h1>Optical fiber, interplanetary</h1>
+                <p class="text-justify">
+                    But what has been done to increase the speed with which information is sent to other planets, or even further, to some of our traveling spacecraft out there in the galaxy?
+                    Some technologies have been developed. Currently, the one that we intend to use in our manned missions to Mars, is made through lasers. But these are not the little lights that our teachers use in the classroom. They are concentrated beams of high power that can carry a lot of information at once, much more than our companion radio waves, which are still our main means of communication. <br>
+
+                    In 2013, the LLCD project (Laser Lunar Communications Demonstration) was able to successfully send information to a sensor in lunar orbit with a much larger band than we currently have and the Mars Laser Communications Demonstration project to use this technology in future missions is already underway to Mars. <br>
+                </p>
+                <img src="./static/LADEE's_LLCD_optical_module_rendering.jpg" width="350px" alt="Voyager Path">
+                <p class="text-justify">
+                    The name of this technology being developed experimentally is LCRD (Laser Communications Relay Demonstration) and is still in the testing phase. This will be the new frontier of communication with space, with a bandwidth increase of 10 to 100 times greater than is possible only with radio waves and the launch of a satellite to test this technology is scheduled to be launched in January 2021. <br> 
+
+                    But would that solve all of our problems? Is that you? What solution would you give?
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-fluid text-justify bg-light mb-0">
+        <div class="card-body">
+            <p class="card-text m-5">
+                Fontes:
+            </p>
+            <p class="card-text m-5">
+                <a href="https://www.nasa.gov/directorates/heo/scan/services/networks/deep_space_network/functions" class="text-decoration-none text-danger">https://www.nasa.gov/directorates/heo/scan/services/networks/deep_space_network/functions</a>
+            </p>
+            <p class="card-text m-5">
+                <a href="https://www.nasa.gov/directorates/heo/scan/about/overview/about_scan" class="text-decoration-none text-danger">https://www.nasa.gov/directorates/heo/scan/about/overview/about_scan</a>
+            </p>
+            <p class="card-text m-5">
+                <a href="https://voyager.jpl.nasa.gov/" class="text-decoration-none text-danger">https://voyager.jpl.nasa.gov/</a>
+            </p>
+            <p class="card-text m-5">
+                <a href="https://eyes.nasa.gov" class="text-decoration-none text-danger">https://eyes.nasa.gov</a>
+            </p>
+            <p class="card-text m-5">
+                <a href="https://esc.gsfc.nasa.gov/projects/LCRD" class="text-decoration-none text-danger">https://esc.gsfc.nasa.gov/projects/LCRD</a>
+            </p>
+            <p class="card-text m-5">
+                Link interessante para visualizar: <a href="https://eyes.nasa.gov/dsn/dsn.html" class="text-decoration-none text-danger">https://eyes.nasa.gov/dsn/dsn.html</a>
+            </p>
+            <p class="card-text m-5">
+                Muito legal para visualizar também: <a href="https://eyes.nasa.gov/curiosity/" class="text-decoration-none text-danger">https://eyes.nasa.gov/curiosity/</a>
+            </p>  
+        </div>
+    </div>
+</section>
 {% endblock %}
