@@ -14,6 +14,6 @@ class CrewView(View):
     def get(self, request):
         return render(request, 'redphone/crew.html')
 
-class ChatbotView(View):
+class ChallengesView(View):
     def get(self, request):
-        return render(request, 'redphone/chatbot.html')
+        return render(request, 'redphone/challenges.html')
